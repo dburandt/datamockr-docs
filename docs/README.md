@@ -6,6 +6,24 @@
 
 `GET /data?fieldType={fieldType}&size={size}`
 
+```js
+# example response to /data?fieldType=city&size=10
+{
+    "data": [
+        'Toronto',
+        'Wellington',
+        'Miami',
+        'Sydney',
+        'Ulicesland',
+        'Marcmouth',
+        'Koelpinton',
+        'London',
+        'Edmonton',
+        'Sherwood Park'
+    ]
+}
+```
+
 ## Query Parameters
 
 ### fieldType
